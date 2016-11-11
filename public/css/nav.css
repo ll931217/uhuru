@@ -1,0 +1,63 @@
+/*Navigation bar*/
+#navi {
+  z-index: 100;
+  right: 10px;
+  padding-bottom: 20px;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+nav ul {
+  list-style: none;
+  overflow: auto;
+  margin-top: 10px;
+  display: table;
+}
+
+nav ul li {
+  float: left;
+  height: 40px;
+  margin: 5px;
+  display: table-cell;
+}
+
+nav ul li a:link, a:visited {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 20px;
+  display: block;
+  border-radius: 5px;
+}
+
+nav ul li a:hover {
+  color: rgb(255, 255, 0);
+  -webkit-transition: all ease .2s;
+  -moz-transition: all ease .2s;
+  -o-transition: all ease .2s;
+  transition: all ease .2s;
+}
+
+nav ul li.hamburger {
+  display: none;
+}
+
+.logo {
+  position: relative;
+  left: 20px;
+  top: -40px;
+}
+
+.logo img {
+  width: 40px;
+  height: 40px;
+}
+
+.fixed {
+  position: fixed;
+  left: 20px;
+  top: 20px;
+}
+
+.topnav {
+  padding: 0;
+}

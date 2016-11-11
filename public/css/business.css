@@ -1,0 +1,95 @@
+/*Business Section*/
+#biz {
+  background-color: black;
+  color: white;
+  width: 100%;
+}
+
+#biz article.provinces {
+  padding-top: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+}
+
+#biz h2 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+#map {
+  font-family:sans-serif;
+  background:#fff;
+  color:#444;
+  width: 100%;
+  height: 100%;
+  padding:0;
+  margin:0;
+}
+
+#mapContainer {
+  margin-top: 20px;
+  height: 600px;
+  width: 600px;
+  padding: 0;
+  margin: 0;
+}
+
+.unslider-wrap {
+  height: 600px;
+}
+
+.provinces ul {
+  list-style: none;
+  height 800px;
+}
+
+.provinces ul li {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.provinces ul li label {
+  cursor: pointer;
+}
+
+input[name="province"] {
+  margin-right: 10px;
+}
+
+.sectors {
+  -moz-column-count: 3;
+  -moz-column-gap: 0px;
+  -webkit-column-count: 3;
+  -webkit-column-gap: 0px;
+  column-count: 3;
+  column-gap: 0px;
+  display: block;
+  margin: 50px auto;
+}
+
+.sectors li label input[name="sector"] {
+  margin-right: 5px;
+}
+
+.sectors li label:hover {
+  color: rgb(0, 183, 207);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.sectors select, #mapContainer select {
+  color: black;
+  width: 100%;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+}
+
+#biz button#back {
+  position: relative;
+  margin: 0 45%;
+  bottom: 0;
+  border: 0;
+  color: black;
+}

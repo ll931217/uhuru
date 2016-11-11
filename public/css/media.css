@@ -1,0 +1,60 @@
+/* media queries */
+@media screen and (max-width: 600px) {
+  article {
+    width: auto;
+  }
+  #home article.collapsed, #home article.uncollapsed {
+    padding: 15vh 3vh 10vh;
+    width: auto;
+  }
+  ul.topnav li {
+    display: none;
+  }
+  ul.topnav li.hamburger {
+    display: block;
+    float: right;
+    padding: 10px;
+    font-size: 24px;
+  }
+  ul.topnav.responsive {
+    position: relative;
+    padding: 0px 10px 10px;
+    border-radius: 10px;
+  }
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+    padding: 10px;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+    font-size: 16px;
+    padding: 5px;
+  }
+  ul.topnav.responsive li a:hover {
+    color: rgb(178, 181, 5);
+  }
+  .sectors {
+    -moz-column-count: 1;
+    -moz-column-gap: 0px;
+    -webkit-column-count: 1;
+    -webkit-column-gap: 0px;
+    column-count: 1;
+    column-gap: 0px;
+    width: 100%;
+  }
+
+  #mapContainer {
+    height: 400px;
+    width: 100%;
+  }
+  section {
+    padding-top: 0;
+  }
+}

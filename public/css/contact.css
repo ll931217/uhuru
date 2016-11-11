@@ -1,0 +1,52 @@
+/*Contact form section*/
+#contact {
+  background-color: rgb(0, 140, 69);
+  color: white;
+  box-shadow: 0 5px 8px 2px rgba(0,0,0,.7);
+  min-height: 0;
+  padding-bottom: 80px;
+}
+
+#contact article.contactUs {
+  padding-top: 20px;
+  margin-left: -10px;
+}
+
+#contact form {
+  font-size: 18px;
+}
+
+#contact td {
+  padding: 5px 10px;
+}
+
+#contact input[type="email"], #contact input[type="text"] {
+  color: white;
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid white;
+  background-color: rgba(0, 0, 0, 0);
+  outline: none;
+}
+
+#contact textarea {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  color: white;
+  width: 100%;
+  border: 1px solid white;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  outline: none;
+  resize: none;
+}
+
+#contact button {
+  width: 100%;
+  border: 0;
+  background: white;
+  color: black;
+  padding: 10px;
+  border-radius: 4px;
+}

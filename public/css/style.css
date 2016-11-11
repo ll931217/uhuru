@@ -1,0 +1,68 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(w3.css);
+@import url(bootstrap.css);
+@import url(business.css);
+@import url(contact.css);
+@import url(display.css);
+@import url(home.css);
+@import url(login.css);
+@import url(logout.css);
+@import url(media.css);
+@import url(nav.css);
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", fantasy, sans-serif;
+}
+
+main {
+  margin: 0;
+  padding: 0;
+  box-shadow: 3px 5px 8px 2px rgba(0,0,0,.7);
+  overflow: hidden;
+}
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  font-size: 44px;
+}
+
+header p {
+  font-size: 16px;
+}
+
+section {
+  min-height: 100vh;
+  width: 100%;
+  padding-top: 60px;
+}
+
+article {
+  padding: 10px;
+  margin: auto;
+  max-width: 800px;
+  z-index: 100;
+}
+
+blockquote, blockquote footer {
+  background-color: white;
+  height: auto;
+  padding-left: 5px;
+  text-align: left;
+}
+
+a.noUnder {
+  text-decoration: none;
+}
+
+/*#biz .page-header, #login .page-header, #contact .page-header {
+  margin: 10px 0 10px;
+}*/
+
+.error {
+  padding: 15px;
+}

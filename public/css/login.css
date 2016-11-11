@@ -1,0 +1,38 @@
+/*Login Section*/
+#login {
+  background-image: url("../images/030TCBJQ8C.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+  /*text-shadow: 0px 2px 3px #555;*/
+}
+
+#login .panel-body {
+  color: black;
+}
+
+.logSec {
+  background-color: rgba(42, 42, 42, 0.8);
+}
+
+#login form input:focus {
+  outline:none;
+}
+
+#recoverPass {
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+}
+
+#recoverPass input[type="email"] {
+  border: 1px solid black;
+}
+
+textarea#desc {
+  resize: none;
+}
+
+.pic-container {
+  height: 150px;
+}

@@ -1,0 +1,36 @@
+/*Footer section under the contact section*/
+footer {
+  margin: 0;
+  padding-left: 10px;
+  background-color: rgb(75, 75, 75);
+  color: white;
+  position: relative;
+  bottom: 0;
+  height: 100px;
+  text-align: center;
+  z-index: 1;
+}
+
+footer h3 {
+  margin: 0;
+  line-height: 100px;
+}
+
+footer h3 span.copy {
+  color: rgb(214, 214, 214);
+  font-size: 16px;
+}
+
+footer h3 span.business {
+  font-size: 16px;
+}
+
+footer a:link, footer a:visited {
+  color: rgb(159, 159, 159);
+  font-size: 16px;
+  transition: all 0.3s ease-in-out;
+}
+
+footer a:hover {
+  color: rgb(218, 218, 218);
+}
